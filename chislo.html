@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Угадай число</title>
+  <link rel="stylesheet" href="cifra.css">
+  <script src="bir.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Угадай число от 1 до 100</h1>
+    <p>У вас <span id="attemptsLeft">10</span> попыток</p>
+    <input type="number" id="guessInput" min="1" max="100" placeholder="Введите число" />
+    <button id="submitGuess">Проверить</button>
+    <p id="feedback"></p>
+    <button id="restartBtn" style="display:none;">Начать заново</button>
+  </div>
+</body>
+</html>
